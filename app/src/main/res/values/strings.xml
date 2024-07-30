@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Worried Cat</string>
+
+    <string name="title_contents">Contents</string>
+
+    <string name="label_start_service">Start Service</string>
+    <string name="label_stop_service">Stop Service</string>
+    <string name="label_start_blocking">Start Blocking</string>
+    <string name="label_stop_blocking">Stop Blocking</string>
+    <string name="label_select_block_contents">Select Block Contents</string>
+    <string name="label_familiarity_score">Familiarity Score</string>
+    <string name="label_go_to_settings">Go To Settings</string>
+    <string name="label_cancel">Cancel</string>
+
+
+    <string name="description_notification_block_unwanted_contents">Block unwanted contents with this service</string>
+    <string name="description_notification_screen_recording">Your screen is recording for block unwanted contents</string>
+    <string name="description_notification_block_paused">Blocking paused</string>
+    <string name="description_service_notification_channel">Worried Cat Service for Block Contents</string>
+    <string name="description_select_content_for_blocking">Select the content you do not want and block the content from your screen</string>
+    <string name="description_overlay_permission">You should give permission overlay this app for blocking contents upon your screen</string>
+
+
+
+
+</resources>
