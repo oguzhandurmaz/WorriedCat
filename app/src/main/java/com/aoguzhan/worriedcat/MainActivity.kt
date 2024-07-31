@@ -52,17 +52,13 @@ class MainActivity : ComponentActivity() {
         ActivityResultContracts.StartActivityForResult()) {result ->
         if(result.resultCode == RESULT_OK){
             startRecordingService(result.resultCode,result.data)
-            serviceStartFlag = 1
         }
     }
-
-    private var serviceStartFlag = 0
 
     val requestPermissionLauncher =
         registerForActivityResult(
             ActivityResultContracts.RequestPermission()
-        ) { isGranted: Boolean ->
-        }
+        ) {}
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
