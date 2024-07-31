@@ -1,9 +1,11 @@
+<p align="center" width="100%">
+    <img width="33%" src="/media/weary_cat.svg">
+</p>
+
 # WorriedCat
 
 WorriedCat App detects selected contents and blokcs from phone screen recording.
 To get information about screen what is displaying App takes screen recording and process information with TensorFlow Lite Model.
-
-![Logo](/media/weary_cat.svg)
 
 ## Why is app name "Worried Cat"?
 
